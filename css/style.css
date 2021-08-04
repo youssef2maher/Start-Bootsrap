@@ -1,0 +1,684 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 75%;
+    height: 100%;
+    display: flex;
+}
+
+
+
+
+/***************** Navigation Bar Style *****************/
+nav {
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+nav .nav-container {
+    align-items: center;
+}
+
+nav .logo {
+    width: 50%;
+}
+
+nav .logo h3 {
+    color: #000;
+    font-family: arial;
+    font-weight: lighter;
+}
+
+nav .nav-links {
+    width: 50%;
+}
+
+nav .nav-links ul {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav .nav-links ul li {
+    margin-left: 4%;
+}
+
+nav .nav-links ul li a {
+    text-decoration: none;
+    color: grey;
+    font-family: arial;
+    font-size: 75%;
+}
+
+@media only screen and (max-width: 320px) {
+
+    nav .logo h3 {
+        font-size: 80%;
+    }
+
+    nav .nav-links ul {
+        visibility: hidden;
+    }
+}
+
+/***************** /Navigation Bar Style *****************/
+
+
+
+
+/***************** Carousel Style *****************/
+
+.carousel {
+    width: auto;
+    height: 625px;
+}
+
+.carousel .img {
+    width: 100%;
+    position: absolute;
+}
+
+.carousel .img img {
+    width: 100%;
+    height: 625px;
+    object-fit: cover;
+}
+
+.carousel .container {
+    flex-direction: column;
+    position: relative;
+}
+
+.carousel header {
+    width: 100%;
+    height: 50%;
+    padding-top: 20%;
+}
+
+.carousel header h2 {
+    text-align: center;
+    color: #FFF;
+    font-family: arial;
+    font-size: 250%;
+}
+
+.carousel article {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.carousel article p {
+    text-align: center;
+    color: rgb(212, 205, 205);
+    font-family: arial;
+    font-size: 100%;
+    font-weight: lighter;
+}
+
+.carousel button {
+    width: 170px;
+    height: 38px;
+    align-self: center;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(231, 9, 9);
+    color: #FFF;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .carousel header {
+        padding-top: 30%;
+    }
+
+    .carousel header h2 {
+        font-size: 200%;
+    }
+
+    .carousel article p {
+        font-size: 75%;
+    }
+
+    .carousel button {
+        width: 150px;
+        height: 33px;
+        font-size: 75%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .carousel header {
+        padding-top: 40%;
+    }
+
+    .carousel header h2 {
+        font-size: 190%;
+    }
+
+    .carousel article {
+        width: 100%;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .carousel article p {
+        font-size: 110%;
+    }
+
+    .carousel button {
+        width: 150px;
+        height: 33px;
+        font-size: 75%;
+    }
+}
+
+/***************** /Carousel Style *****************/
+
+
+
+
+/***************** Get Started Style *****************/
+
+.section-1 {
+    width: 100%;
+    height: 40vh;
+    background-color: tomato;
+}
+
+.section-1 .container {
+    flex-direction: column;
+}
+
+.section-1 header {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.section-1 header h2 {
+    text-align: center;
+    color: #FFF;
+    font-family: Sans-serif;
+    font-weight: lighter;
+}
+
+.section-1 article {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.section-1 article p {
+    text-align: center;
+    color: rgb(235, 231, 231);
+    font-family: arial;
+    font-size: 100%;
+    line-height: 25px;
+}
+
+.section-1 button {
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    border: none;
+    border-radius: 100px;
+    background-color: #FFF;
+    color: #000;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section-1 header h2 {
+        font-size: 130%;
+    }
+
+    .section-1 article p {
+        font-size: 90%;
+    }
+
+    .section-1 button {
+        width: 130px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .section-1 {
+        height: 55vh;
+    }
+
+    .section-1 header {
+        padding-top: 15%;
+    }
+    
+    .section-1 article  {
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
+
+/***************** /Get Started Style *****************/
+
+
+
+
+/***************** Services Style *****************/
+
+.section-2 {
+    width: 100%;
+    height: 55vh;
+}
+
+.section-2 header {
+    width: 100%;
+    height: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.section-2 header h2 {
+    text-align: center;
+    color: #000;
+    font-family: sans-serif;
+}
+
+.section-2 .container {
+    flex-direction: column;
+}
+
+.section-2 .card-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2%;
+}
+
+.section-2 .card-container .card {
+    width: 100%;
+    height: 100%;
+}
+
+.section-2 .card-container .card .icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-color: tomato;
+}
+
+.section-2 .card-container .card header {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.section-2 .card-container .card header h3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.section-2 .card-container .card article {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section-2 .card-container .card article p {
+    text-align: center;
+    color: rgb(170, 163, 163);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section-2 {
+        height: 40vh;
+    }
+
+    .section-2 .card-container .card .icon {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        border-radius: 100px;
+        background-color: tomato;
+    }
+
+    .section-2 .card-container .card header h3 {
+        font-size: 100%;
+    }
+
+    .section-2 .card-container .card article {
+        width: 100%;
+    }
+
+    .section-2 .card-container .card article p {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .section-2 {
+        height: 150vh;
+    }
+
+    .section-2 header {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .section-2 .card-container {
+        grid-template-columns: 1fr;
+        gap: 0%;
+    }
+
+    .section-2 .card-container .card .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .section-2 .card-container .card header h3 {
+        font-size: 150%;
+    }
+
+    .section-2 .card-container .card article {
+        width: 90%;
+    }
+    
+    .section-2 .card-container .card article p {
+        font-size: 80%;
+    }
+}
+
+/***************** /Services Style *****************/
+
+
+
+
+/***************** Gallery Style *****************/
+
+.section-3 {
+    width: 100%;
+    height: 60vh;
+}
+
+.section-3 .card-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-3 .card-container .card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;   
+}
+
+.section-3 .card-container .card:hover > .img img {
+    filter: brightness(20%);
+}
+
+.section-3 .card-container .card .img {
+    width: 100%;
+    background-color: #000;
+}
+
+.section-3 .card-container .card .img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.section-3 .card-container .card header {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    visibility: hidden;
+}
+
+.section-3 .card-container .card:hover > header {
+    visibility: visible;
+}
+
+.section-3 .card-container .card header h3 {
+    text-align: center;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 170%;
+}
+
+.section-3 .card-container .card article {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+.section-3 .card-container .card:hover > article {
+    visibility: visible;
+}
+
+.section-3 .card-container .card article p {
+    text-align: center;
+    color: rgb(209, 201, 201);
+    font-family: arial;
+    font-size: 100%;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .section-3 .card-container .card header h3 {
+        font-size: 140%;
+    }
+
+    .section-3 .card-container .card article p {
+        font-size: 80%;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .section-3 {
+        height: 230vh;
+    }
+
+    .section-3 .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/***************** /Gallery Style *****************/
+
+
+
+
+/***************** /Gallery Style *****************/
+
+footer {
+    width: 100%;
+    height: 45vh;
+}
+
+footer .container {
+    width: 65%;
+    flex-direction: column;
+}
+
+footer header {
+    width: 100%;
+    padding-top: 8%;
+}
+
+footer header h2 {
+    text-align: center;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 170%;
+    font-weight: lighter;
+}
+
+footer article {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+footer article p {
+    text-align: center;
+    color: #000;
+    font-family: arial;
+    font-size: 100%;
+}
+
+footer .contacts-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+footer .contacts-container .contact {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .contacts-container .contact .icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(19, 18, 18);
+    border-radius: 100px;
+}
+
+footer .contacts-container .contact .cont {
+    width: 100%;
+    padding-top: 10%;
+}
+
+footer .contacts-container .contact .cont p {
+    text-align: center;
+}
+
+footer .contacts-container .contact .email p {
+    color: tomato;
+}
+
+@media only screen and (max-width: 768px) {
+
+    footer {
+        height: 35vh;
+    }
+
+    footer header h2 {
+        font-size: 140%;
+    }
+
+    footer article p {
+        font-size: 80%;
+    }
+
+    footer .contacts-container .contact .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer .contacts-container .contact .cont p {
+        font-size: 80%;
+    }
+
+    footer .contacts-container .contact .email p {
+        color: tomato;
+        font-size: 65%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    footer {
+        height: 65vh;
+    }
+
+    footer .container {
+        width: 75%;
+    }
+
+    footer header {
+        padding-top: 10%;
+    }
+
+    footer header h2 {
+        font-size: 170%;
+    }
+
+    footer article {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    footer article p {
+        font-size: 90%;
+    }
+
+    footer .contacts-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .contacts-container .contact {
+        width: 100%;
+    }
+
+    footer .contacts-container .contact .cont {
+        padding: 3%;
+        padding-bottom: 15%;
+    }
+
+    footer .contacts-container .contact .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer .contacts-container .contact .cont p {
+        font-size: 95%;
+    }
+    
+}
+
+/***************** /Gallery Style *****************/
