@@ -61,7 +61,7 @@ nav .nav-links ul li a {
     font-size: 75%;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 576px) {
 
     nav .logo h3 {
         font-size: 80%;
@@ -163,7 +163,7 @@ nav .nav-links ul li a {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 576px) {
 
     .carousel header {
         padding-top: 40%;
@@ -261,7 +261,7 @@ nav .nav-links ul li a {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 576px) {
 
     .section-1 {
         height: 55vh;
@@ -383,7 +383,7 @@ nav .nav-links ul li a {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 576px) {
 
     .section-2 {
         height: 150vh;
@@ -509,7 +509,7 @@ nav .nav-links ul li a {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 576px) {
 
     .section-3 {
         height: 230vh;
@@ -627,7 +627,7 @@ footer .contacts-container .contact .email p {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 576px) {
 
     footer {
         height: 65vh;
